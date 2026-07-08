@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall
 
 all:
-	$(CC) $(CFLAGS) hello.c -o hello
+	$(CC) $(CFLAGS) Hello.c -o Hello
 
 clean:
 	rm -f hello
