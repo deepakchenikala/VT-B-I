@@ -13,11 +13,5 @@ pipeline {
                 sh 'make'
             }
         }
-
-        stage('Run') {
-            steps {
-                sh './app'
-            }
-        }
     }
 }
